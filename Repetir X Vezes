@@ -1,0 +1,11 @@
+// A variável input contém a entrada descrita no exercício
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8");
+
+// Seu código vai aqui
+const X = Number(input.trim());
+
+// Imprime a mensagem X vezes
+for (let i = 0; i < X; i++) {
+    console.log("NepsAcademy eh Sucesso");
+}
