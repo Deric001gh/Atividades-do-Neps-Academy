@@ -1,0 +1,12 @@
+// A variável input contém a entrada descrita no exercício
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8");
+
+// Seu código vai aqui
+const R = parseFloat(input.trim());
+const PI = 3.1416;
+
+const area = PI * R * R;
+
+// Imprime a área com 2 casas decimais
+console.log(area.toFixed(2));
